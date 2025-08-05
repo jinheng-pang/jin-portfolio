@@ -1,11 +1,18 @@
-html, body {
+html,
+body {
   height: 100svh;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  font-family: 'Inter', sans-serif;
   background-color: #232121;
   background-image: url('/bg-polka-dot.svg');
 }
