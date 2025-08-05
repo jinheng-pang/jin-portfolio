@@ -35,6 +35,10 @@
 }
 
 .header-links li {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
     /* border */
     padding: 0.6em 1.5em;
     border-style: solid;
@@ -46,6 +50,10 @@
 .header-links a {
     color: white;
     text-decoration: none; /* remove underline */
+}
+
+.header-links-svg {
+    padding-top: 0.1rem;
 }
 
 
