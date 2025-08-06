@@ -32,10 +32,16 @@
     gap: 1.5rem;
 }
 
-.header-links li {
+.header-links a {
     display: flex;
     gap: 1rem;
     align-items: center;
+
+    color: white;
+    text-decoration: none; /* remove underline */
+
+    font-size: 1.15rem;
+    font-weight: 600;
 
     cursor: pointer;
 
@@ -45,16 +51,8 @@
     border-radius: var(--border-radius);
 }
 
-.header-links li:hover {
+.header-links a:hover {
     background-color: var(--accent);
-}
-
-.header-links a {
-    color: white;
-    text-decoration: none; /* remove underline */
-
-    font-size: 1.15rem;
-    font-weight: 600;
 }
 
 

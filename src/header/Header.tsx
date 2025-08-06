@@ -13,20 +13,28 @@ const Header = () => {
       <p className="header-location">Melbourne, VIC</p>
       <ul className="header-links">
         <li>
-          <SvgEnvelope className="header-links-svg" />
-          <a href="">Contact Me</a>
+          <a href="">
+            <SvgEnvelope className="header-links-svg" />
+            Contact Me
+          </a>
         </li>
         <li>
-          <SvgDownload className="header-links-svg" />
-          <a href="">Download Resume</a>
+          <a href="">
+            <SvgDownload className="header-links-svg" />
+            Download Resume
+          </a>
         </li>
         <li>
-          <SvgGithub className="header-links-svg" />
-          <a href="">Github</a>
+          <a href="https://github.com/jinheng-pang">
+            <SvgGithub className="header-links-svg" />
+            Github
+          </a>
         </li>
         <li>
-          <SvgLinkedin className="header-links-svg" />
-          <a href="">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/jin-heng-pang/">
+            <SvgLinkedin className="header-links-svg" />
+            LinkedIn
+          </a>
         </li>
       </ul>
     </div>
