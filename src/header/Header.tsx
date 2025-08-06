@@ -31,7 +31,11 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/jin-heng-pang/">
+          <a
+            href="https://www.linkedin.com/in/jin-heng-pang/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <SvgLinkedin className="header-links-svg" />
             LinkedIn
           </a>

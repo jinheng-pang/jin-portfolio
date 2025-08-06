@@ -29,6 +29,7 @@
     padding-top: 1.5rem;
     list-style: none; /* remove prefix dot */
     display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
 }
 
