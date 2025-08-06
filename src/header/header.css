@@ -21,10 +21,8 @@
 
     /* border */
     padding: 0.3em 0.8em;
-    border-style: solid;
-    border-color: #908D8D;
-    border-radius: 2rem;
-    border-width: 0.002rem;
+    border: var(--border);
+    border-radius: var(--border-radius);
 }
 
 .header-links {
@@ -43,14 +41,12 @@
 
     /* border */
     padding: 1em 1.5em;
-    border-style: solid;
-    border-color: #908D8D;
-    border-radius: 0.7rem;
-    border-width: 0.002rem;
+    border: var(--border);
+    border-radius: var(--border-radius);
 }
 
 .header-links li:hover {
-    background-color: #1EC118;
+    background-color: var(--accent);
 }
 
 .header-links a {

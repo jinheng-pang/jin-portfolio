@@ -16,3 +16,10 @@ body {
   background-color: #232121;
   background-image: url('/bg-polka-dot.svg');
 }
+
+:root {
+  --accent: #1EC118;
+
+  --border: 0.002rem solid #908D8D;
+  --border-radius: 0.7rem;
+}

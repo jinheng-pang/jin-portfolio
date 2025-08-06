@@ -1,4 +1,4 @@
-import SvgCode from "../svg/Code";
+import SvgEnvelope from "../svg/Envelope";
 import SvgDownload from "../svg/Download";
 import SvgGithub from "../svg/Github";
 import SvgLinkedin from "../svg/Linkedin";
@@ -13,7 +13,7 @@ const Header = () => {
       <p className="header-location">Melbourne, VIC</p>
       <ul className="header-links">
         <li>
-          <SvgCode className="header-links-svg" />
+          <SvgEnvelope className="header-links-svg" />
           <a href="">Contact Me</a>
         </li>
         <li>
