@@ -37,23 +37,28 @@
 .header-links li {
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
 
     /* border */
-    padding: 0.6em 1.5em;
+    padding: 1em 1.5em;
     border-style: solid;
     border-color: #908D8D;
     border-radius: 0.7rem;
     border-width: 0.002rem;
 }
 
+.header-links li:hover {
+    background-color: #1EC118;
+}
+
 .header-links a {
     color: white;
     text-decoration: none; /* remove underline */
-}
 
-.header-links-svg {
-    padding-top: 0.1rem;
+    font-size: 1.15rem;
+    font-weight: 600;
 }
 
 

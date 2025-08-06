@@ -26,7 +26,7 @@ const Header = () => {
         </li>
         <li>
           <SvgLinkedin className="header-links-svg" />
-          <a href="">Github</a>
+          <a href="">LinkedIn</a>
         </li>
       </ul>
     </div>
