@@ -19,13 +19,17 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             <SvgDownload className="header-links-svg" />
             Download Resume
           </a>
         </li>
         <li>
-          <a href="https://github.com/jinheng-pang">
+          <a
+            href="https://github.com/jinheng-pang"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <SvgGithub className="header-links-svg" />
             Github
           </a>
