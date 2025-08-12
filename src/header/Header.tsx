@@ -13,10 +13,10 @@ const Header = () => {
       <p className="header-location">Melbourne, VIC</p>
       <ul className="header-links">
         <li>
-          <a href="">
+          <button>
             <SvgEnvelope className="header-links-svg" />
             Contact Me
-          </a>
+          </button>
         </li>
         <li>
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">

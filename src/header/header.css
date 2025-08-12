@@ -33,12 +33,13 @@
     gap: 1.5rem;
 }
 
-.header-links a {
+.header-links a, .header-links button {
     display: flex;
     gap: 1rem;
     align-items: center;
 
     color: white;
+    background-color: inherit;
     text-decoration: none; /* remove underline */
 
     font-size: 1.15rem;
@@ -52,7 +53,7 @@
     border-radius: var(--border-radius);
 }
 
-.header-links a:hover {
+.header-links a:hover, .header-links button:hover {
     background-color: var(--accent);
 }
 
