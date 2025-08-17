@@ -25,21 +25,22 @@
   display: flex;
   flex-direction: column;
   padding: 1.5em 1.5em;
+  gap: 2.5rem;
 }
 
 .closeButton {
-    position: absolute;
-    top: 1em;
-    right: 1em;
+  position: absolute;
+  top: 1em;
+  right: 1em;
 
-    border: none;
-    background: none;
+  border: none;
+  background: none;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.closeButton:hover .svg-close-path{
-    fill: var(--fill);
+.closeButton:hover .svg-close-path {
+  fill: var(--fill);
 }
 
 .contactForm-header {
@@ -66,3 +67,74 @@
   width: 1.8rem;
 }
 
+.contactForm-header-heading .svg-envelope-path {
+  fill: var(--accent);
+}
+
+.contactForm-body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  gap: 1rem;
+}
+
+.subject,
+.message,
+.submit {
+  grid-column: span 2;
+}
+
+.label {
+  display: block;
+}
+
+.input {
+  margin-top: 0.5rem;
+  border: var(--border);
+  border-radius: var(--border-radius);
+
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding: 1em 1em;
+  color: var(--fill);
+}
+
+.input:focus {
+  border-color: var(--accent);
+  border-width: 0.1rem;
+  outline: none; /* removes the default blue glow */
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-size: 1.3rem;
+  color: var(--fill);
+  padding: 1em 1em;
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--accent);
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: var(--accent-hover);
+}
+
+.submit-svg .svg-paperPlane-path {
+  fill: var(--fill);
+}
+
+input:-webkit-autofill {
+  background-color: var(--background-color) !important;
+  color: var(--fill) !important;
+  -webkit-text-fill-color: var(--fill) !important;
+  transition: background-color 9999s ease-in-out 0s;
+}

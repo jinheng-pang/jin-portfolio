@@ -1,6 +1,7 @@
 import "./contactForm.css";
 import SvgClose from "../../svgComponents/Close";
 import SvgEnvelope from "../../svgComponents/Envelope";
+import SvgPaperPlane from "../../svgComponents/PaperPlane";
 
 interface ContactFormProps {
   open: boolean;
@@ -26,15 +27,25 @@ const ContactForm = ({ open, onClose }: ContactFormProps) => {
           </div>
         </div>
         <form className="contactForm-body">
-          <label className="label" htmlFor="name">Name</label>
-          <input className="input" id="name" />
-          <label className="label" htmlFor="email">Email</label>
-          <input className="input"  id="email" type="email" />
-          <label className="label" htmlFor="subject">Subject</label>
-          <input className="input"  id="subject" />
-          <label className="label" htmlFor="message">Message</label>
-          <input className="input"  id="message" />
-          <button type="submit">Send Message</button>
+          <div className="name">
+            <label className="label" htmlFor="name">Name</label>
+            <input className="input" id="name" />
+          </div>
+          <div className="email">
+            <label className="label" htmlFor="email">Email</label>
+            <input className="input"  id="email" type="email" />
+          </div>
+          <div className="subject">
+            <label className="label" htmlFor="subject">Subject</label>
+            <input className="input"  id="subject" />
+          </div>
+          <div className="message">
+            <label className="label" htmlFor="message">Message</label>
+            <textarea className="input"  id="message" rows={5} />
+          </div>
+          <button className="submit" type="submit">
+            <SvgPaperPlane className="submit-svg" />
+            Send Message</button>
         </form>
       </div>
     </div>
