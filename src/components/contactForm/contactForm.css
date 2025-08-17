@@ -21,6 +21,10 @@
   border: var(--border);
   border-radius: var(--border-radius);
   background-color: var(--background-color);
+
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em 1.5em;
 }
 
 .closeButton {
@@ -37,3 +41,28 @@
 .closeButton:hover .svg-close-path{
     fill: var(--fill);
 }
+
+.contactForm-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contactForm-header-heading {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-weight: bold;
+}
+
+.contactForm-header-subHeading {
+  color: var(--fill-secondary);
+  font-weight: 500;
+}
+
+.contactForm-header-heading .svg-envelope {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+

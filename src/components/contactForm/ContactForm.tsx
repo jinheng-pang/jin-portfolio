@@ -34,6 +34,7 @@ const ContactForm = ({ open, onClose }: ContactFormProps) => {
           <input className="input"  id="subject" />
           <label className="label" htmlFor="message">Message</label>
           <input className="input"  id="message" />
+          <button type="submit">Send Message</button>
         </form>
       </div>
     </div>
