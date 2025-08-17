@@ -10,8 +10,8 @@
 
 .contactForm {
   /* viewport positioning */
-  height: 60vh;
-  width: 60vh;
+  height: 70vh;
+  width: 70vh;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -34,6 +34,6 @@
     cursor: pointer;
 }
 
-.closeButton:hover .closeButton-path{
+.closeButton:hover .svg-close-path{
     fill: var(--fill);
 }
