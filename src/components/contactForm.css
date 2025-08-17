@@ -4,7 +4,8 @@
   left: 0;
   width: 100vw; /* cover full viewport width */
   height: 100vh; /* cover full viewport height */
-  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  background: rgba(0, 0, 0, 0.7); /* 70% transparent black */
+  z-index: 1000;
 }
 
 .contactForm {
@@ -20,4 +21,19 @@
   border: var(--border);
   border-radius: var(--border-radius);
   background-color: var(--background-color);
+}
+
+.closeButton {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+
+    border: none;
+    background: none;
+
+    cursor: pointer;
+}
+
+.closeButton:hover .closeButton-path{
+    fill: var(--fill);
 }
