@@ -13,11 +13,12 @@ body {
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #232121;
+  background-color: var(--background-color);
   background-image: url('/bg-polka-dot.svg');
 }
 
 :root {
+  --background-color: #232121; 
   --accent: #1EC118;
 
   --border: 0.002rem solid #908D8D;
