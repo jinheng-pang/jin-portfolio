@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-import SvgEnvelope from "../svg/Envelope";
-import SvgDownload from "../svg/Download";
-import SvgGithub from "../svg/Github";
-import SvgLinkedin from "../svg/Linkedin";
+import SvgEnvelope from "../svgComponents/Envelope";
+import SvgDownload from "../svgComponents/Download";
+import SvgGithub from "../svgComponents/Github";
+import SvgLinkedin from "../svgComponents/Linkedin";
 import ContactForm from "../components/ContactForm";
 
 import "./header.css";
