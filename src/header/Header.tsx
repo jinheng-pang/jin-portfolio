@@ -18,7 +18,7 @@ const Header = () => {
       <p className="header-location">Melbourne, VIC</p>
       <ul className="header-links">
         <li>
-          <button onClick={() => setIsOpen(true)}>
+          <button className="header-links-button" onClick={() => setIsOpen(true)}>
             <SvgEnvelope className="header-links-svg" />
             Contact Me
           </button>
@@ -29,13 +29,13 @@ const Header = () => {
           />
         </li>
         <li>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a className="header-links-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             <SvgDownload className="header-links-svg" />
             Download Resume
           </a>
         </li>
         <li>
-          <a
+          <a className="header-links-button"
             href="https://github.com/jinheng-pang"
             target="_blank"
             rel="noopener noreferrer"
@@ -45,7 +45,7 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a
+          <a className="header-links-button"
             href="https://www.linkedin.com/in/jin-heng-pang/"
             target="_blank"
             rel="noopener noreferrer"
