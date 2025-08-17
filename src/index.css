@@ -22,7 +22,10 @@ body {
   --fill: #FFFFFF;
   --fill-secondary: #908D8D;
   --accent: #1EC118;
+  --accent-hover: #18A113; /* darker for hover */
 
-  --border: 0.002rem solid var(--fill-secondary);
+  --border-type: solid;
+  --border-width: 0.002rem;
+  --border: var(--border-width) var(--border-type) var(--fill-secondary);
   --border-radius: 0.7rem;
 }
