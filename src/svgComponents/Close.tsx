@@ -11,7 +11,7 @@ const SvgClose = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      className="closeButton-path"
+      className="svg-close-path"
       fill="var(--fill-secondary)"
       fillRule="evenodd"
       stroke="none"
