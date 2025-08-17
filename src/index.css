@@ -19,8 +19,10 @@ body {
 
 :root {
   --background-color: #232121; 
+  --fill: #FFFFFF;
+  --fill-secondary: #908D8D;
   --accent: #1EC118;
 
-  --border: 0.002rem solid #908D8D;
+  --border: 0.002rem solid var(--fill-secondary);
   --border-radius: 0.7rem;
 }
