@@ -1,0 +1,23 @@
+.overlay {
+  position: fixed; /* stays in place, even on scroll */
+  top: 0;
+  left: 0;
+  width: 100vw; /* cover full viewport width */
+  height: 100vh; /* cover full viewport height */
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+}
+
+.contactForm {
+  /* viewport positioning */
+  height: 60vh;
+  width: 60vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* shifts element's center to the exact middle */
+  transform: translate(-50%, -50%);
+
+  border: var(--border);
+  border-radius: var(--border-radius);
+  background-color: var(--background-color);
+}

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import "./contactForm.css"
 
 interface ContactFormProps {
   open: boolean;
@@ -10,9 +10,11 @@ const ContactForm = ( { open, children, onClose}: ContactFormProps ) => {
   if (!open) return null
 
   return (
-    <div>
-        <button onClick={onClose}>Close Modal</button>
-        {children}
+    <div className="overlay">
+        <div className="contactForm">
+            <button onClick={onClose}>Close Modal</button>
+            {children}
+        </div>
     </div>
   );
 };
