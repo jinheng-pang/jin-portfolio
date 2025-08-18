@@ -2,11 +2,7 @@ import "./contactForm.css";
 import SvgClose from "../../svgComponents/Close";
 import SvgEnvelope from "../../svgComponents/Envelope";
 import SvgPaperPlane from "../../svgComponents/PaperPlane";
-
-interface ContactFormProps {
-  open: boolean;
-  onClose: () => void;
-}
+import type { ContactFormProps } from "../../types";
 
 const ContactForm = ({ open, onClose }: ContactFormProps) => {
   if (!open) return null;
