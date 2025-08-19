@@ -1,50 +1,63 @@
+.panel {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 2em 0;
+    background: var(--dashboard-bg-color);
+}
+
 .experience {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
-}
-
-.experience .heading {
-    display: flex;
     justify-content: center;
     align-items: center;
+    gap: 3rem 0;    
 }
 
 .timeline {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: var(--timeline-point-dimension);
+    justify-content: center;
+    align-items: stretch;
 }
 
 .timelineItem {
     display: grid;
-    grid-template-columns: 1fr 0.005rem 1fr;
-    grid-template-areas: "duration line content";
-    gap: 2rem;
+    grid-template-columns: 1fr 0.02rem 1fr 1fr;
+    gap: 1.5rem;
 }
 
-.timelineDuration {
-    grid-area: duration;
-    justify-self: end;
+.timelineItem:last-child .timelineMiddle {
+    background: none;
 }
 
 .timelineMiddle {
-    position: relative;
-    grid-area: line;
     background: var(--fill);
-    height: 14rem;
+    width: 0.02rem;
+
+    transform: translate(0, 1rem);
 }
 
 .timelinePoint {
-    position: absolute;
-    top: 0;
-    transform: translate(-50%, 0);
-    height: 1.2rem;
-    width: 1.2rem;
-    z-index: 1;
-    background: var(--background-color);
-    border: 0.005rem var(--border-type) var(--fill);
+    background: var(--fill);
+    width: var(--timeline-point-dimension);
+    height: var(--timeline-point-dimension);
+
+    transform: translate(-50%, -100%);
     border-radius: 50%;
 }
 
+.timelineDuration {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    font-size: 0.9rem;
+}
+
 .timelineContent {
-    grid-area: content;
+    grid-column: span 2;
+}
+
+.end {
+    align-self: flex-end;
 }

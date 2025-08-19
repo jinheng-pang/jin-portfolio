@@ -2,7 +2,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
   color: white;
 }
 
@@ -29,4 +28,8 @@ body {
   --border-width: 0.002rem;
   --border: var(--border-width) var(--border-type) var(--fill-secondary);
   --border-radius: 0.7rem;
+
+  --dashboard-bg-color: rgba(2, 2, 2, 0.6);
+
+  --timeline-point-dimension: 1.3rem;
 }

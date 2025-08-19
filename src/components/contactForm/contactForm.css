@@ -10,7 +10,7 @@
 
 .contactForm {
   height: 70% auto;
-  width: 50%;
+  width: 40%;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -139,7 +139,7 @@ input:-webkit-autofill {
   transition: background-color 9999s ease-in-out 0s;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .contactForm {
     width: 100%;
   }
