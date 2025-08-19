@@ -9,7 +9,7 @@ const experiences: ExperienceProps[] = [MedHealth, Monash];
 
 const Experience = () => {
   return (
-    <div className="experience panel">
+    <div className="experience body-panel">
       <h2 className="heading">Experience</h2>
       <div className="timeline">
         {experiences.map((exp, idx) => (

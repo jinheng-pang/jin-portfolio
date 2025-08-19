@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './header/Header'
 import Experience from './components/experiences/Experience'
+import DashBoard from './components/dashboard/DashBoard'
 
 function App() {
 
@@ -8,7 +9,10 @@ function App() {
     <>
       <Header />
       <hr className='seperator'/>
-      <Experience />
+      <div className='main-content'>
+        <Experience />
+        <DashBoard />
+      </div>
       <hr className='seperator'/>
 
     </>

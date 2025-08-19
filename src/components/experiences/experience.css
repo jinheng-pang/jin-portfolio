@@ -1,10 +1,3 @@
-.panel {
-    border: var(--border);
-    border-radius: var(--border-radius);
-    padding: 2em 0;
-    background: var(--dashboard-bg-color);
-}
-
 .experience {
     display: flex;
     flex-direction: column;

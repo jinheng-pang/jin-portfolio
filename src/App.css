@@ -2,3 +2,16 @@
     margin: 2rem 2rem;
     border: var(--border);
 }
+
+.body-panel {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 2em 0;
+    background: var(--dashboard-bg-color);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+}
