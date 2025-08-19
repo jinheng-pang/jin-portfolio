@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Experience from "./components/experiences/Experience";
 import DashBoard from "./components/dashboard/Dashboard";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <DashBoard />
       </div>
       <hr className="seperator" />
+      <Footer />
+
     </>
   );
 }
