@@ -6,6 +6,7 @@ export interface ContactFormProps {
 export interface ExperienceProps {
     jobTitle: string;
     company: string;
-    duration: string;
+    start: string;
+    end: string;
     description: string;
 }
