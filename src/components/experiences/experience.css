@@ -1,34 +1,46 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.experience .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .timeline {
     display: grid;
-    gap: 1.2rem;
 }
 
 .timelineItem {
     display: grid;
     grid-template-columns: 1fr 0.005rem 1fr;
     grid-template-areas: "duration line content";
-    gap: 1rem;
+    gap: 2rem;
 }
 
-.timelineItemDuration {
+.timelineDuration {
     grid-area: duration;
+    justify-self: end;
 }
 
 .timelineMiddle {
     position: relative;
     grid-area: line;
     background: var(--fill);
-    height: 9rem;
+    height: 14rem;
 }
 
 .timelinePoint {
     position: absolute;
     top: 0;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, 0);
     height: 1.2rem;
     width: 1.2rem;
     z-index: 1;
-    background: none;
+    background: var(--background-color);
     border: 0.005rem var(--border-type) var(--fill);
     border-radius: 50%;
 }
