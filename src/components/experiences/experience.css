@@ -1,0 +1,38 @@
+.timeline {
+    display: grid;
+    gap: 1.2rem;
+}
+
+.timelineItem {
+    display: grid;
+    grid-template-columns: 1fr 0.005rem 1fr;
+    grid-template-areas: "duration line content";
+    gap: 1rem;
+}
+
+.timelineItemDuration {
+    grid-area: duration;
+}
+
+.timelineMiddle {
+    position: relative;
+    grid-area: line;
+    background: var(--fill);
+    height: 9rem;
+}
+
+.timelinePoint {
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -100%);
+    height: 1.2rem;
+    width: 1.2rem;
+    z-index: 1;
+    background: none;
+    border: 0.005rem var(--border-type) var(--fill);
+    border-radius: 50%;
+}
+
+.timelineContent {
+    grid-area: content;
+}
