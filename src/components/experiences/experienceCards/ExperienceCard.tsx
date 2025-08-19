@@ -4,11 +4,9 @@ import "./ExperienceCard.css"
 const ExperienceCard: React.FC<ExperienceProps> = ({ jobTitle, company, description}) => {
   return (
     <div className="card">
-        <header>
-            <h2>{jobTitle}</h2>
-            <p>{company}</p>
-        </header>
-        <p>{description}</p>
+        <h2 className="job-title">{jobTitle}</h2>
+        <p className="company">{company}</p>
+        <p className="description">{description}</p>
     </div>
   )
 }
