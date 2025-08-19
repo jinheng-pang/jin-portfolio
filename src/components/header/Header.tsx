@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import SvgEnvelope from "../svgComponents/Envelope";
-import SvgDownload from "../svgComponents/Download";
-import SvgGithub from "../svgComponents/Github";
-import SvgLinkedin from "../svgComponents/Linkedin";
-import ContactForm from "../components/contactForm/ContactForm";
+import SvgEnvelope from "../../svgComponents/Envelope";
+import SvgDownload from "../../svgComponents/Download";
+import SvgGithub from "../../svgComponents/Github";
+import SvgLinkedin from "../../svgComponents/Linkedin";
+import ContactForm from "../contactForm/ContactForm";
 
 import "./header.css";
 
@@ -25,10 +25,7 @@ const Header = () => {
             <SvgEnvelope className="header-links-svg" />
             Contact Me
           </button>
-          <ContactForm
-            open={isOpen}
-            onClose={() => setIsOpen(false)}
-          />
+          <ContactForm open={isOpen} onClose={() => setIsOpen(false)} />
         </li>
         <li>
           <a
