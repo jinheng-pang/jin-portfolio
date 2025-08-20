@@ -1,9 +1,9 @@
 .experience {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 3rem 0;    
+    gap: 3rem;    
 }
 
 .timeline {

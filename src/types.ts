@@ -1,3 +1,5 @@
+import type { ReactNode } from "react";
+
 export interface ContactFormProps {
   open: boolean;
   onClose: () => void;
@@ -9,4 +11,11 @@ export interface ExperienceProps {
     start: string;
     end: string;
     description: string;
+}
+
+export interface StatsPanelProps {
+  icon: ReactNode;
+  title: string;
+  statistic: string;
+  extraInformation: string;
 }

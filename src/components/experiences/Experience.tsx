@@ -1,7 +1,7 @@
 import type { ExperienceProps } from "../../types";
 import MedHealth from "./experienceItems/medhealth";
 import Monash from "./experienceItems/monash";
-import ExperienceCard from "./experienceCards/ExperienceCard";
+import ExperienceCard from "./experienceCard/ExperienceCard";
 
 import "./experience.css";
 

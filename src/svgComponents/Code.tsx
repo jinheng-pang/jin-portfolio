@@ -2,6 +2,7 @@ import * as React from "react";
 import type { SVGProps } from "react";
 const SvgCode = (props: SVGProps<SVGSVGElement>) => (
   <svg
+    className="svg-code"
     xmlns="http://www.w3.org/2000/svg"
     width="2em"
     height="2em"
@@ -10,6 +11,7 @@ const SvgCode = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      className="svg-code-path"
       stroke="#FFFFFF"
       strokeLinecap="round"
       strokeLinejoin="round"

@@ -2,7 +2,7 @@ import type { StatsPanelProps } from "../../../types";
 import SvgCode from "../../../svgComponents/Code";
 import React from "react";
 
-const Project: StatsPanelProps = {
+export const Project: StatsPanelProps = {
     icon: React.createElement(SvgCode),
     title: "Projects Completed",
     statistic: "2",

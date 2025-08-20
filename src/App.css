@@ -8,10 +8,16 @@
     border-radius: var(--border-radius);
     padding: 2em 0;
     background: var(--dashboard-bg-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem 0;   
 }
 
 .main-content {
-    display: flex;
-    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     gap: 1rem;
 }

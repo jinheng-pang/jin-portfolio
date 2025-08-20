@@ -10,8 +10,8 @@ function App() {
       <Header />
       <hr className="seperator" />
       <div className="main-content">
-        <Experience />
         <DashBoard />
+        <Experience />        
       </div>
       <hr className="seperator" />
       <Footer />
