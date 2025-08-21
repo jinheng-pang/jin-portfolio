@@ -20,7 +20,7 @@ const DashBoard = () => {
         </div>
       </div>
       <div className="projects">
-        <h2 className="heading">Featured Projects</h2>
+        <h2 className="heading"></h2>
       </div>
     </div>
   );
