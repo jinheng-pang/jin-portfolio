@@ -3,8 +3,8 @@ import type { SVGProps } from "react";
 const SvgGoal = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="1em"
-    height="1em"
+    width="2em"
+    height="2em"
     className="goal_svg__icon goal_svg__line-color"
     data-name="Line Color"
     viewBox="0 0 24 24"
@@ -14,7 +14,7 @@ const SvgGoal = (props: SVGProps<SVGSVGElement>) => (
       d="m15 9-2.5 2.5M15 6v3h3l3-3h-3V3Z"
       style={{
         fill: "none",
-        stroke: "#2ca9bc",
+        stroke: "red",
         strokeLinecap: "round",
         strokeLinejoin: "round",
         strokeWidth: 2,
@@ -24,7 +24,7 @@ const SvgGoal = (props: SVGProps<SVGSVGElement>) => (
       d="M12.33 3H12a9 9 0 1 0 9 9v-.33"
       style={{
         fill: "none",
-        stroke: "#000",
+        stroke: "#FFFFFF",
         strokeLinecap: "round",
         strokeLinejoin: "round",
         strokeWidth: 2,
@@ -35,7 +35,7 @@ const SvgGoal = (props: SVGProps<SVGSVGElement>) => (
       data-name="primary"
       style={{
         fill: "none",
-        stroke: "#000",
+        stroke: "#FFFFFF",
         strokeLinecap: "round",
         strokeLinejoin: "round",
         strokeWidth: 2,
