@@ -5,7 +5,7 @@ const MedHealth: ExperienceProps = {
     company: "MedHealth",
     start: "Jun 2025",
     end: "Present",
-    description: "Front of line for any IT issues for MedHealth and 28 children companies"
+    description: "Front of line for any IT issues for MedHealth and 28 child companies"
 }
 
 export default MedHealth;

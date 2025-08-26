@@ -5,7 +5,7 @@ const Monash: ExperienceProps = {
     company: "Monash University",
     start: "Mar 2022",
     end: "Nov 2026",
-    description: "Founded Monash which is now hosting 1 billion students worldwide"
+    description: "Start of my whimsical grand techventure"
 }
 
 export default Monash;
