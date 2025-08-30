@@ -4,7 +4,10 @@ import SvgEnvelope from "../../svgComponents/Envelope";
 import SvgPaperPlane from "../../svgComponents/PaperPlane";
 import type { ContactFormProps } from "../../types";
 
+import ReCAPTCHA from "react-google-recaptcha";
+
 const ContactForm = ({ open, onClose }: ContactFormProps) => {
+  const onChange = () => [];
   if (!open) return null;
 
   return (
@@ -24,24 +27,34 @@ const ContactForm = ({ open, onClose }: ContactFormProps) => {
         </div>
         <form className="contactForm-body">
           <div className="name">
-            <label className="label" htmlFor="name">Name</label>
+            <label className="label" htmlFor="name">
+              Name
+            </label>
             <input className="input" id="name" />
           </div>
           <div className="email">
-            <label className="label" htmlFor="email">Email</label>
-            <input className="input"  id="email" type="email" />
+            <label className="label" htmlFor="email">
+              Email
+            </label>
+            <input className="input" id="email" type="email" />
           </div>
           <div className="subject">
-            <label className="label" htmlFor="subject">Subject</label>
-            <input className="input"  id="subject" />
+            <label className="label" htmlFor="subject">
+              Subject
+            </label>
+            <input className="input" id="subject" />
           </div>
           <div className="message">
-            <label className="label" htmlFor="message">Message</label>
-            <textarea className="input"  id="message" rows={5} />
+            <label className="label" htmlFor="message">
+              Message
+            </label>
+            <textarea className="input" id="message" rows={5} />
           </div>
+          <ReCAPTCHA className="captcha" sitekey="6LcC2rcrAAAAALd05B_TWqgqLF86c804Jn6shitt" onChange={onChange} />
           <button className="submit" type="submit">
             <SvgPaperPlane className="submit-svg" />
-            Send Message</button>
+            Send Message
+          </button>
         </form>
       </div>
     </div>
