@@ -26,7 +26,7 @@
 
 .timelineMiddle {
     background: var(--fill);
-    width: 0.02rem;
+    width: 0.04rem;
 
     transform: translate(0, 1rem);
 }
