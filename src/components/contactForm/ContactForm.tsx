@@ -69,7 +69,7 @@ const ContactForm = ({ open, onClose }: ContactFormProps) => {
             </label>
             <textarea className="input" id="message" value={formData.message} rows={5} onChange={handleInputChange} />
           </div>
-          <ReCAPTCHA className="captcha" sitekey="6LcC2rcrAAAAALd05B_TWqgqLF86c804Jn6shitt" onChange={onChange} />
+          <ReCAPTCHA className="captcha" sitekey="6LdI8bgrAAAAAPGMnWMmKA8PuVUN3RPzCc_Nb9mc" onChange={onChange} />
           <button className="submit" type="submit" onClick={handleSubmit}>
             <SvgPaperPlane className="submit-svg" />
             Send Message
