@@ -6,11 +6,11 @@ export interface ContactFormProps {
 }
 
 export interface ExperienceProps {
-    jobTitle: string;
-    company: string;
-    start: string;
-    end: string;
-    description: string;
+  jobTitle: string;
+  company: string;
+  start: string;
+  end: string;
+  description: string;
 }
 
 export interface StatsPanelProps {
@@ -25,10 +25,12 @@ export interface ValidationResult<T> {
   value: T;
 }
 
-export interface MailProps {
-  name: string,
-  email: string,
-  subject: string,
-  message: string,
-  recaptchaToken: string
+export type Token = string | null;
+
+export interface FormDataProps {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+  recaptchaToken: Token;
 }
