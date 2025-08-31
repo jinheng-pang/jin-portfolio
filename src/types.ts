@@ -19,3 +19,16 @@ export interface StatsPanelProps {
   statistic: string;
   extraInformation: string;
 }
+
+export interface ValidationResult<T> {
+  error: Error | undefined;
+  value: T;
+}
+
+export interface MailProps {
+  name: string,
+  email: string,
+  subject: string,
+  message: string,
+  recaptchaToken: string
+}
