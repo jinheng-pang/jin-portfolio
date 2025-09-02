@@ -8,4 +8,4 @@ I specifically implemented a contact form and a dashboard to gain practical expe
 
 # Technology
 
-React.js, Typescript, CSS
+React.js, Node.js, Express.js, Joi, Typescript, CSS
