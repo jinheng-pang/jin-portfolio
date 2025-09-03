@@ -3,7 +3,7 @@ import type {
   FormDataProps,
   Token,
   RecaptchaResponse,
-} from "../../types.js";
+} from "./types";
 import type { Request, Response } from "express";
 
 import dotenv from "dotenv";

@@ -12,3 +12,8 @@ export interface FormDataProps {
   message: string;
   recaptchaToken: Token;
 }
+
+export interface RecaptchaResponse {
+    name: string,
+    success: boolean
+}
